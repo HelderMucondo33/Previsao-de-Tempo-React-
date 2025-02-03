@@ -1,8 +1,7 @@
+
+
 function WeatherInfo({ weather }) {
-  // Verifica se weather e weather.weather estão definidos
-  if (!weather || !weather.weather || !weather.weather[0]) {
-    return <div>Carregando...</div>;
-  }
+  
 
   return (
     <div>

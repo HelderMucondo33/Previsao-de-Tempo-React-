@@ -24,7 +24,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="container">
       <h1>HELDER Previsao de Tempo</h1>
       <input type="text" placeholder="digite a cidade" ref={inputCidade}/>
       <button onClick={searchCity}>Pesquisar</button>
